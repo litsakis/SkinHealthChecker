@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\book.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\mipmap-xhdpi\\book.png"
+    },
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\notok.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\mipmap-xhdpi\\notok.png"
+    },
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\nogooden.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\mipmap-xhdpi\\nogooden.png"
+    }
+]

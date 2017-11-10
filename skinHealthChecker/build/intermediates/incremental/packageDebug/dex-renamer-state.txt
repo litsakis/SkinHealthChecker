@@ -1,0 +1,4 @@
+#Tue Aug 08 03:35:05 EEST 2017
+base.0=C\:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

@@ -1,0 +1,352 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:background="#e77801"
+     android:textSize="10sp"
+
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="none" >
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+            </TabWidget>
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:orientation="vertical"
+                    android:baselineAligned="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFA6"
+                    android:weightSum="1"
+                    android:id="@+id/base"
+
+                    app:layout_scrollFlags="scroll">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Does the mole has any of the following features?"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:id="@+id/checkBox"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:duplicateParentState="false"
+                                android:elevation="0dp"
+                                android:text="Bleeds or oozes"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="starts to itch" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Becomes hard or feels lumpy" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Feels like burning, or pain" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Please insert a name for your new mole record:"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                                android:visibility="visible" />
+
+                            <EditText
+                                android:id="@+id/name33"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:inputType="textPersonName"
+                                android:text="Name" />
+
+                            <Button
+                                android:id="@+id/save"
+                                style="@android:style/Widget.Holo.Button.Borderless"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonshape"
+                                android:elevation="0dp"
+                                android:includeFontPadding="false"
+                                android:text="Save and show results"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                android:textStyle="normal|bold"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                    x
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:orientation="vertical"
+                    android:baselineAligned="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFA6"
+                    android:weightSum="1"
+                    android:id="@+id/base2"
+
+                    app:layout_scrollFlags="scroll">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Does the mole has any of the following features?"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:id="@+id/checkBox12"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:duplicateParentState="false"
+                                android:elevation="0dp"
+                                android:text="Bleeds or oozes"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="starts to itch" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox32"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Becomes hard or feels lumpy" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox42"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Feels like burning, or pain" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <TextView
+                                android:id="@+id/textView212"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Choose the correct mole record to update its data.:"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                                android:visibility="visible" />
+
+                            <Spinner
+                                android:id="@+id/spinner22"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <Button
+                                android:id="@+id/save222"
+                                style="@android:style/Widget.Holo.Button.Borderless"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonshape"
+                                android:text="Compare with saved results"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                android:textStyle="normal|bold"
+                                android:visibility="visible"
+
+
+                                />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                    x
+
+                </LinearLayout>
+
+                <LinearLayout
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:orientation="vertical"
+                    android:baselineAligned="false"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFA6"
+                    android:weightSum="1"
+                    android:id="@+id/base3"
+
+                    app:layout_scrollFlags="scroll">
+
+                    <TextView
+                        android:id="@+id/textView333"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Does the mole has any of the following features?"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <CheckBox
+                                android:id="@+id/checkBox333"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:duplicateParentState="false"
+                                android:elevation="0dp"
+                                android:text="Bleeds or oozes"
+                                android:textAlignment="center"
+                                android:textSize="14sp" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox2333"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:checked="false"
+                                android:text="starts to itch" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox3333"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Becomes hard or feels lumpy" />
+
+                            <CheckBox
+                                android:id="@+id/checkBox4333"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Feels like burning, or pain" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <Button
+                                android:id="@+id/save2333"
+                                style="@android:style/Widget.Holo.Button.Borderless"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonshape"
+                                android:text="Show results"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                android:textStyle="normal|bold"
+                                android:visibility="visible"
+
+
+                                />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                    x
+
+                </LinearLayout>
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

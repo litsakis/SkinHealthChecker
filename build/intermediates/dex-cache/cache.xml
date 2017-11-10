@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\3f4d92a9c0438d2f341f6d5467f94074a0b026cb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_abb41e41209539a5f9a0f718d76d72fbc7a1e372.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.1\support-annotations-25.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\support-annotations-25.1.1_2a684b9b6357a8af2c46f50530a4016f8fb2e1ba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\libs\commons-net-3.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd0d5510908225f76c5fe5a3f1df4fa44866f81e">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\commons-net-3.3_c42fc87d672437817dffb37c119cb315fdf81854.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\4b1867b51c820b69925578e0a00858faf9a1adfa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_29618aa284e0c4f73e6de1a2275431666bbded53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\4e67f9b8b86bde397e4fc225cdd375877fe9e613\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_c23e0a9a8e55426de9e10dfcdb333f6ea3717402.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\e3407243880555397bedef463d0c802eeb8df827\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_f5c4a0b19cb9b08dc11dcf27464ef1d02b2d1851.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\0c8c7899761e28d9f91f8fcd9d3a4ad8f4b8e964\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_9b7465b56665d2b860dca43f9bb6e6ab6be6d76a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\StudioProjects\SkinHealthChecker\openCVLibrary320\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="038e8806866760ccd8568b401b8052e937e4be1a">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_eecd52bd67734f5ca8efba409838a4b22c9c7e59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\27b05eb53fccb3bc098f5eab9b1884e39b4a6574\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_ead294dc0ef7c95b80a84fc8dceac27101a69636.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\30632d53972c95ffb9dcf5048c0794bfcb2fca2b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_0ca69f7f382fda1c9664a9785a1b7b1b82485fe8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\20f4eee4e408475464a3a9799e8e66b1d36c3ab0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_d841ed79727b37c4bf35ab2f6f965c6530ad7ad9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\1a3731de5f69b159c16e850d79bc8de55f61ec09\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_1941268b2cc3c509e18d87fec713fbc4202bdadd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\df5b24824ffe7ea623fa130d8914b7c2b2da02b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_49d237547d9ac6955c77bbf3d091719efb8b3113.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\66113509d6ffb07a8035b7542c7eb7072c317c03\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_3b79f0386a67341e5999c5781d33a5e9b933eb99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\bbc4c6f1c86a047fe09139c67452ebf4822a3fe1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_d369cd5c4e511c1adf5930869ecd2739fcd50db1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\dafa9e2046435c57394d17948d25eafd554c23d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c1c44672010b6847f3744ec3702624d8d16c240">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_abb5027188768e7c24eb5d876f1872cd42653b4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\libs\Imshow.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7396c04f91c8533fc04b5650fdef60678cf02a5c">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\Imshow_54650cb8c5581c1ef730e95e76892749acaecc2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\alexandros\.android\build-cache\aae2e1784d64b1f12cf0aa7f43500679a2365662\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
+        <dex dex="C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\build\intermediates\pre-dexed\debug\classes_c3284b076075180c1391c2b3cdbbf0e90827fcd9.jar" />
+    </item>
+
+</items>

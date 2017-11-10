@@ -1,0 +1,327 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity"
+    android:id="@+id/base"
+    >
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:background="#e77801"
+     android:textSize="10sp"
+
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+            </TabWidget>
+
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+
+
+                    android:id="@+id/baseone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFA6"
+                    android:baselineAligned="false"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+
+                    app:layout_scrollFlags="scroll">
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pick profile!"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView42"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Profile:" />
+
+                            <ListView
+                                android:id="@+id/mylist"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+
+                            <Spinner
+                                android:id="@+id/spinner2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <Button
+                                android:id="@+id/deleteprofil"
+                                style="@android:style/Widget.Holo.Button.Borderless"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonshape"
+                                android:text="Delete profile!"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                android:textStyle="normal|bold"
+
+
+                                android:visibility="visible" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <ImageView
+                                android:id="@+id/imageView2"
+                                android:layout_width="250dp"
+                                android:layout_height="220dp"
+                                android:layout_gravity="center"
+                                android:adjustViewBounds="false"
+                                android:background="@drawable/profil"
+                                android:cropToPadding="false"
+                                android:visibility="visible" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <Button
+                                android:id="@+id/gotomain"
+                                style="@android:style/Widget.Holo.Button.Borderless"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center|end"
+                                android:background="@drawable/buttonshape"
+                                android:text="Pick Profile!"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+
+                                android:textStyle="normal|bold"
+
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                    x
+
+                </LinearLayout>
+
+                <LinearLayout
+
+
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/basetwo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#FFFFA6"
+                    android:baselineAligned="false"
+                    android:orientation="vertical"
+                    android:weightSum="1"
+
+                    app:layout_scrollFlags="scroll">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Please fill out the following information to create a new profile"
+                        android:textAlignment="center"
+                        android:textSize="18sp"
+                        android:textStyle="normal|bold" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Profile name:"
+                                android:textColor="@android:color/black"
+                                android:textStyle="normal|bold" />
+
+                            <EditText
+                                android:id="@+id/profilname"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:inputType="text" />
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="First and last name :"
+                                android:textColor="@android:color/black"
+                                android:textStyle="normal|bold" />
+
+                            <EditText
+                                android:id="@+id/name"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:inputType="text" />
+
+                            <TextView
+                                android:id="@+id/agetext"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Age :"
+                                android:textColor="@android:color/black"
+                                android:textStyle="normal|bold" />
+
+                            <EditText
+                                android:id="@+id/age"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:inputType="number" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Gender:" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <Spinner
+                                android:id="@+id/spinnersex"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:entries="@array/sex_arraysen"
+                                android:prompt="@string/Sexen" />
+
+                            <CheckBox
+                                android:id="@+id/history"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Do you have history of cancerous moles?" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="E-mail :"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                                android:visibility="visible" />
+
+                            <EditText
+                                android:id="@+id/mail"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:inputType="textEmailAddress"
+                                android:text="something@gmail.com" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Phone number:"
+                                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                                android:visibility="visible" />
+
+                            <EditText
+                                android:id="@+id/phone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:inputType="number" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dip" />
+
+                            <Button
+                                android:id="@+id/save"
+                                style="@android:style/Widget.Holo.Button.Borderless"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/buttonshape"
+                                android:elevation="0dp"
+                                android:includeFontPadding="false"
+                                android:text="Create new profile!"
+                                android:textColor="@android:color/black"
+                                android:textSize="14sp"
+                                android:textStyle="normal|bold"
+                                android:visibility="visible" />
+
+                        </LinearLayout>
+                    </ScrollView>
+
+                    x
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

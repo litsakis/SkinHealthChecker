@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SkinHealthChecker.iml" filepath="$PROJECT_DIR$/SkinHealthChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" filepath="$PROJECT_DIR$/openCVLibrary320/openCVLibrary320.iml" />
+      <module fileurl="file://$PROJECT_DIR$/skinHealthChecker/skinHealthChecker.iml" filepath="$PROJECT_DIR$/skinHealthChecker/skinHealthChecker.iml" />
+    </modules>
+  </component>
+</project>

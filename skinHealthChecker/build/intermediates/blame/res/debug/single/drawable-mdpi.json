@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\check.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\drawable-mdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\profil.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\drawable-mdpi\\profil.png"
+    },
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\proficon.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\drawable-mdpi\\proficon.png"
+    },
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\redcheck.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\drawable-mdpi\\redcheck.png"
+    },
+    {
+        "merged": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\earth.png",
+        "source": "C:\\Users\\alexandros\\StudioProjects\\SkinHealthChecker\\skinHealthChecker\\src\\main\\res\\drawable-mdpi\\earth.png"
+    }
+]

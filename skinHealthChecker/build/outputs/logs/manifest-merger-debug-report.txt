@@ -1,0 +1,166 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:3:5-44
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:3:49-72
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:5:5-7:41
+MERGED from [SkinHealthChecker:openCVLibrary320:unspecified] C:\Users\alexandros\StudioProjects\SkinHealthChecker\openCVLibrary320\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:gridlayout-v7:25.1.1] C:\Users\alexandros\.android\build-cache\dafa9e2046435c57394d17948d25eafd554c23d3\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.1.1] C:\Users\alexandros\.android\build-cache\1a3731de5f69b159c16e850d79bc8de55f61ec09\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.1.1] C:\Users\alexandros\.android\build-cache\27b05eb53fccb3bc098f5eab9b1884e39b4a6574\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\alexandros\.android\build-cache\20f4eee4e408475464a3a9799e8e66b1d36c3ab0\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\alexandros\.android\build-cache\3f4d92a9c0438d2f341f6d5467f94074a0b026cb\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\alexandros\.android\build-cache\bbc4c6f1c86a047fe09139c67452ebf4822a3fe1\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.1] C:\Users\alexandros\.android\build-cache\aae2e1784d64b1f12cf0aa7f43500679a2365662\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.1] C:\Users\alexandros\.android\build-cache\4e67f9b8b86bde397e4fc225cdd375877fe9e613\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\alexandros\.android\build-cache\e3407243880555397bedef463d0c802eeb8df827\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\alexandros\.android\build-cache\30632d53972c95ffb9dcf5048c0794bfcb2fca2b\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\alexandros\.android\build-cache\4b1867b51c820b69925578e0a00858faf9a1adfa\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\alexandros\.android\build-cache\df5b24824ffe7ea623fa130d8914b7c2b2da02b7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\alexandros\.android\build-cache\0c8c7899761e28d9f91f8fcd9d3a4ad8f4b8e964\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\alexandros\.android\build-cache\66113509d6ffb07a8035b7542c7eb7072c317c03\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.1] C:\Users\alexandros\.android\build-cache\27b05eb53fccb3bc098f5eab9b1884e39b4a6574\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:7:9-38
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:6:9-35
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:8:5-65
+MERGED from [SkinHealthChecker:openCVLibrary320:unspecified] C:\Users\alexandros\StudioProjects\SkinHealthChecker\openCVLibrary320\build\intermediates\bundles\default\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:8:22-62
+uses-feature#android.hardware.camera
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:9:5-60
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:9:19-57
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:10:5-66
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:10:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:12:22-78
+uses-permission#Intent.FLAG_GRANT_READ_URI_PERMISSION
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:13:22-74
+uses-permission#Intent.FLAG_GRANT_WRITE_URI_PERMISSION
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:14:5-78
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:14:22-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:15:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:16:22-77
+application
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:17:5-47:19
+MERGED from [com.android.support:gridlayout-v7:25.1.1] C:\Users\alexandros\.android\build-cache\dafa9e2046435c57394d17948d25eafd554c23d3\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:25.1.1] C:\Users\alexandros\.android\build-cache\1a3731de5f69b159c16e850d79bc8de55f61ec09\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:25.1.1] C:\Users\alexandros\.android\build-cache\27b05eb53fccb3bc098f5eab9b1884e39b4a6574\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\alexandros\.android\build-cache\20f4eee4e408475464a3a9799e8e66b1d36c3ab0\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\alexandros\.android\build-cache\3f4d92a9c0438d2f341f6d5467f94074a0b026cb\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\alexandros\.android\build-cache\bbc4c6f1c86a047fe09139c67452ebf4822a3fe1\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.1] C:\Users\alexandros\.android\build-cache\4e67f9b8b86bde397e4fc225cdd375877fe9e613\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\alexandros\.android\build-cache\e3407243880555397bedef463d0c802eeb8df827\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\alexandros\.android\build-cache\30632d53972c95ffb9dcf5048c0794bfcb2fca2b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\alexandros\.android\build-cache\4b1867b51c820b69925578e0a00858faf9a1adfa\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\alexandros\.android\build-cache\df5b24824ffe7ea623fa130d8914b7c2b2da02b7\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\alexandros\.android\build-cache\0c8c7899761e28d9f91f8fcd9d3a4ad8f4b8e964\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\alexandros\.android\build-cache\66113509d6ffb07a8035b7542c7eb7072c317c03\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:20:9-41
+	android:allowBackup
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:18:9-35
+	android:icon
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:19:9-45
+	android:theme
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:21:9-40
+activity#com.example.skinhealthchecker.CameraActivity
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:22:9-30:20
+	android:screenOrientation
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:25:13-49
+	android:label
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:23:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:26:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.skinhealthchecker.Randar
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:31:9-44
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:31:19-41
+activity#com.example.skinhealthchecker.Preview
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:32:9-45
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:32:19-42
+activity#com.example.skinhealthchecker.Results
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:33:9-45
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:33:19-42
+activity#com.example.skinhealthchecker.Questionmark
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:34:9-50
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:34:19-47
+activity#com.example.skinhealthchecker.Diagnosis
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:35:9-47
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:35:19-44
+activity#com.example.skinhealthchecker.AppGallery
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:36:9-48
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:36:19-45
+activity#com.example.skinhealthchecker.Users
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:37:9-43
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:37:19-40
+activity#com.example.skinhealthchecker.Manual
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:38:9-46:20
+	android:label
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:40:13-58
+	android:parentActivityName
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:41:13-57
+	android:theme
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:39:13-35
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:43:13-45:80
+	android:value
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:45:17-77
+	android:name
+		ADDED from C:\Users\alexandros\StudioProjects\SkinHealthChecker\skinHealthChecker\src\main\AndroidManifest.xml:44:17-63

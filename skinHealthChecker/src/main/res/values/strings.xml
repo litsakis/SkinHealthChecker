@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SkinHealthChecker</string>
+    <string name="Sex">Διάλεξτε φύλο</string>
+    <string-array name="sex_arrays">
+        <item>Άνδρας</item>
+        <item>Γυναίκα</item>
+    </string-array>
+
+
+    <string name="Sexen">Choose Gender </string>
+
+    <string-array name="sex_arraysen">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_manual">Manual</string>
+</resources>

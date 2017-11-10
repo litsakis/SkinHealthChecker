@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFA6"
+    android:weightSum="1"
+    android:id="@+id/base"
+
+    app:layout_scrollFlags="scroll">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ο σπίλος έχει κάποιο από  τα παρακάτω συμπτώματα?"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:duplicateParentState="false"
+                android:elevation="0dp"
+                android:text="Mατώνει ή εκκρίνει υγρό"
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:text="Προκαλεί φαγούρα" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eίναι σκληρός στην αφή," />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Είναι πρησμένος ή πονάει" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Υπάρχει ιστορικό κακοήθη μελανώματος" />
+
+            <TextView
+                android:id="@+id/agetext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Εισάγετε την ηλικία σας :"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Φύλο:" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/sex_arrays"
+                android:prompt="@string/Sex" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Επιλέξτε ένα όνομα αν θέλετε να αποθηκεύσετε έναν νέο σπίλο:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/name33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Όνομα" />
+
+            <Button
+                android:id="@+id/save"
+                style="@android:style/Widget.Holo.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:elevation="0dp"
+                android:includeFontPadding="false"
+                android:text="Αποθήκευση και εμφάνιση αποτελεσμάτων"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                android:visibility="visible" />
+
+            <Spinner
+                android:id="@+id/spinner22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dip" />
+
+            <Button
+                android:id="@+id/save2"
+                style="@android:style/Widget.Holo.Button.Borderless"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonshape"
+                android:text="Σύγκριση με αποθηκευμένο αποτέλεσμα"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                android:visibility="visible"
+
+
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    x
+
+</LinearLayout>

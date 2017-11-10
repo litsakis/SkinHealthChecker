@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="support-core-utils-25.1.1">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/skinHealthChecker/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/0c8c7899761e28d9f91f8fcd9d3a4ad8f4b8e964/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/0c8c7899761e28d9f91f8fcd9d3a4ad8f4b8e964/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/sdk/extras/android/m2repository/com/android/support/support-core-utils/25.1.1/support-core-utils-25.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

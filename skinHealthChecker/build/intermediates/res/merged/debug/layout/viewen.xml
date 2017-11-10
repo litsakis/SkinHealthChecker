@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+       android:background="#FFFFA6"
+    android:id="@+id/frameid"
+                   
+    
+    >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <ImageView
+            android:id="@+id/myimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/myimg"
+            android:background="@android:drawable/bottom_bar"
+            android:orientation="horizontal"
+            android:paddingBottom="1.0dip"
+            android:paddingLeft="4.0dip"
+            android:paddingRight="4.0dip"
+            android:paddingTop="5.0dip">
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left|center_vertical"
+                android:text="Is the mole properly selected?" />
+            android:layout_weight="1.0"
+            />
+
+            <Button
+                android:id="@+id/bingo"
+                android:layout_width="0.0dip"
+
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/buttonshape"
+                android:text="Yes"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/trymore"
+                android:layout_width="0.0dip"
+
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/buttonshape"
+                android:text="Try again"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

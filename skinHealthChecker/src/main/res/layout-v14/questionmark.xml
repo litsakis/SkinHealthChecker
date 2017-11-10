@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFA6"
+    android:weightSum="1"
+    app:layout_scrollFlags="scroll">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="Ο σπίλος έχει κάποιο από  τα παρακάτω συμπτώματα?"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:text="Mατώνει ή εκκρίνει υγρό"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox"
+            android:elevation="0dp"
+            android:checked="false"
+            android:duplicateParentState="false"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:text="Προκαλεί φαγούρα"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox2"
+            android:checked="false" />
+
+        <CheckBox
+            android:text="Eίναι σκληρός στην αφή,"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox3" />
+
+        <CheckBox
+            android:text="Είναι πρησμένος ή πονάει"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4" />
+
+        <CheckBox
+            android:text="Υπάρχει ιστορικό κακοήθη μελανώματος"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox5" />
+
+        <TextView
+            android:text="Εισάγετε την ηλικία σας :"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/agetext"
+            android:textStyle="normal|bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/age"
+             />
+
+        <TextView
+            android:text="Φύλο:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:entries="@array/sex_arrays"
+            android:prompt="@string/Sex"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/save"
+            style="@android:style/Widget.Holo.Button.Borderless"
+            android:text="Αποθήκευση και εμφάνιση αποτελεσμάτων"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:elevation="0dp"
+            android:visibility="visible"
+            android:background="@drawable/buttonshape"
+            android:includeFontPadding="false" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,322 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 43515904 bytes for committing reserved memory.
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   In 32 bit mode, the process size limit was hit
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Use 64 bit Java on a 64 bit OS
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_linux.cpp:2627), pid=7640, tid=0x00007f2d435d8700
+#
+# JRE version:  (8.0_112-b06) (build )
+# Java VM: OpenJDK 64-Bit Server VM (25.112-b06 mixed mode linux-amd64 compressed oops)
+# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007f2d3c00a000):  JavaThread "Unknown thread" [_thread_in_vm, id=7646, stack(0x00007f2d434d8000,0x00007f2d435d9000)]
+
+Stack: [0x00007f2d434d8000,0x00007f2d435d9000],  sp=0x00007f2d435d7630,  free space=1021k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [libjvm.so+0x9e465d]  VMError::report_and_die()+0x15d
+V  [libjvm.so+0x4b6ada]  report_vm_out_of_memory(char const*, int, unsigned long, VMErrorType, char const*)+0x8a
+V  [libjvm.so+0x84c860]  os::pd_commit_memory(char*, unsigned long, unsigned long, bool)+0xf0
+V  [libjvm.so+0x84737f]  os::commit_memory(char*, unsigned long, unsigned long, bool)+0x1f
+V  [libjvm.so+0x8bd3db]  PSVirtualSpace::expand_by(unsigned long)+0x5b
+V  [libjvm.so+0x8af358]  PSOldGen::initialize(ReservedSpace, unsigned long, char const*, int)+0xa8
+V  [libjvm.so+0x2c3c33]  AdjoiningGenerations::AdjoiningGenerations(ReservedSpace, GenerationSizer*, unsigned long)+0x353
+V  [libjvm.so+0x870421]  ParallelScavengeHeap::initialize()+0x211
+V  [libjvm.so+0x9b04c9]  Universe::initialize_heap()+0x189
+V  [libjvm.so+0x9b06c3]  universe_init()+0x33
+V  [libjvm.so+0x5ddf25]  init_globals()+0x55
+V  [libjvm.so+0x993bd3]  Threads::create_vm(JavaVMInitArgs*, bool*)+0x2b3
+V  [libjvm.so+0x64b5e2]  JNI_CreateJavaVM+0x52
+C  [libjli.so+0x77c8]  JavaMain+0x88
+C  [libpthread.so.0+0x76ba]  start_thread+0xca
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00007f2d3c00a000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=7646, stack(0x00007f2d434d8000,0x00007f2d435d9000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (0 events):
+No events
+
+
+Dynamic libraries:
+00400000-00401000 r-xp 00000000 08:05 1055812                            /home/chief/android-studio/jre/bin/java
+00600000-00601000 r--p 00000000 08:05 1055812                            /home/chief/android-studio/jre/bin/java
+00601000-00602000 rw-p 00001000 08:05 1055812                            /home/chief/android-studio/jre/bin/java
+01996000-019b7000 rw-p 00000000 00:00 0                                  [heap]
+c2980000-eab00000 ---p 00000000 00:00 0 
+eab00000-ebf80000 rw-p 00000000 00:00 0 
+ebf80000-100000000 ---p 00000000 00:00 0 
+7f2d2ce77000-7f2d2d000000 rw-p 00000000 00:00 0 
+7f2d2d000000-7f2d2d270000 rwxp 00000000 00:00 0 
+7f2d2d270000-7f2d3c000000 ---p 00000000 00:00 0 
+7f2d3c000000-7f2d3c035000 rw-p 00000000 00:00 0 
+7f2d3c035000-7f2d40000000 ---p 00000000 00:00 0 
+7f2d4007c000-7f2d40169000 rw-p 00000000 00:00 0 
+7f2d40169000-7f2d402be000 ---p 00000000 00:00 0 
+7f2d402be000-7f2d402c9000 rw-p 00000000 00:00 0 
+7f2d402c9000-7f2d40369000 ---p 00000000 00:00 0 
+7f2d40369000-7f2d40374000 rw-p 00000000 00:00 0 
+7f2d40374000-7f2d4072a000 ---p 00000000 00:00 0 
+7f2d4072a000-7f2d40744000 r-xp 00000000 08:05 1055892                    /home/chief/android-studio/jre/jre/lib/amd64/libzip.so
+7f2d40744000-7f2d40944000 ---p 0001a000 08:05 1055892                    /home/chief/android-studio/jre/jre/lib/amd64/libzip.so
+7f2d40944000-7f2d40945000 r--p 0001a000 08:05 1055892                    /home/chief/android-studio/jre/jre/lib/amd64/libzip.so
+7f2d40945000-7f2d40946000 rw-p 0001b000 08:05 1055892                    /home/chief/android-studio/jre/jre/lib/amd64/libzip.so
+7f2d40946000-7f2d40951000 r-xp 00000000 08:05 1070706                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f2d40951000-7f2d40b50000 ---p 0000b000 08:05 1070706                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f2d40b50000-7f2d40b51000 r--p 0000a000 08:05 1070706                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f2d40b51000-7f2d40b52000 rw-p 0000b000 08:05 1070706                    /lib/x86_64-linux-gnu/libnss_files-2.23.so
+7f2d40b52000-7f2d40b58000 rw-p 00000000 00:00 0 
+7f2d40b58000-7f2d40b63000 r-xp 00000000 08:05 1070691                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f2d40b63000-7f2d40d62000 ---p 0000b000 08:05 1070691                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f2d40d62000-7f2d40d63000 r--p 0000a000 08:05 1070691                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f2d40d63000-7f2d40d64000 rw-p 0000b000 08:05 1070691                    /lib/x86_64-linux-gnu/libnss_nis-2.23.so
+7f2d40d64000-7f2d40d7a000 r-xp 00000000 08:05 1070696                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f2d40d7a000-7f2d40f79000 ---p 00016000 08:05 1070696                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f2d40f79000-7f2d40f7a000 r--p 00015000 08:05 1070696                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f2d40f7a000-7f2d40f7b000 rw-p 00016000 08:05 1070696                    /lib/x86_64-linux-gnu/libnsl-2.23.so
+7f2d40f7b000-7f2d40f7d000 rw-p 00000000 00:00 0 
+7f2d40f7d000-7f2d40f85000 r-xp 00000000 08:05 1070710                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f2d40f85000-7f2d41184000 ---p 00008000 08:05 1070710                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f2d41184000-7f2d41185000 r--p 00007000 08:05 1070710                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f2d41185000-7f2d41186000 rw-p 00008000 08:05 1070710                    /lib/x86_64-linux-gnu/libnss_compat-2.23.so
+7f2d41186000-7f2d411b3000 r-xp 00000000 08:05 1055910                    /home/chief/android-studio/jre/jre/lib/amd64/libjava.so
+7f2d411b3000-7f2d413b2000 ---p 0002d000 08:05 1055910                    /home/chief/android-studio/jre/jre/lib/amd64/libjava.so
+7f2d413b2000-7f2d413b3000 r--p 0002c000 08:05 1055910                    /home/chief/android-studio/jre/jre/lib/amd64/libjava.so
+7f2d413b3000-7f2d413b5000 rw-p 0002d000 08:05 1055910                    /home/chief/android-studio/jre/jre/lib/amd64/libjava.so
+7f2d413b5000-7f2d413c5000 r-xp 00000000 08:05 1055881                    /home/chief/android-studio/jre/jre/lib/amd64/libverify.so
+7f2d413c5000-7f2d415c4000 ---p 00010000 08:05 1055881                    /home/chief/android-studio/jre/jre/lib/amd64/libverify.so
+7f2d415c4000-7f2d415c6000 r--p 0000f000 08:05 1055881                    /home/chief/android-studio/jre/jre/lib/amd64/libverify.so
+7f2d415c6000-7f2d415c7000 rw-p 00011000 08:05 1055881                    /home/chief/android-studio/jre/jre/lib/amd64/libverify.so
+7f2d415c7000-7f2d415ce000 r-xp 00000000 08:05 1070712                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f2d415ce000-7f2d417cd000 ---p 00007000 08:05 1070712                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f2d417cd000-7f2d417ce000 r--p 00006000 08:05 1070712                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f2d417ce000-7f2d417cf000 rw-p 00007000 08:05 1070712                    /lib/x86_64-linux-gnu/librt-2.23.so
+7f2d417cf000-7f2d418d7000 r-xp 00000000 08:05 1070692                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f2d418d7000-7f2d41ad6000 ---p 00108000 08:05 1070692                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f2d41ad6000-7f2d41ad7000 r--p 00107000 08:05 1070692                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f2d41ad7000-7f2d41ad8000 rw-p 00108000 08:05 1070692                    /lib/x86_64-linux-gnu/libm-2.23.so
+7f2d41ad8000-7f2d426c9000 r-xp 00000000 08:05 1055890                    /home/chief/android-studio/jre/jre/lib/amd64/server/libjvm.so
+7f2d426c9000-7f2d428c9000 ---p 00bf1000 08:05 1055890                    /home/chief/android-studio/jre/jre/lib/amd64/server/libjvm.so
+7f2d428c9000-7f2d42968000 r--p 00bf1000 08:05 1055890                    /home/chief/android-studio/jre/jre/lib/amd64/server/libjvm.so
+7f2d42968000-7f2d42991000 rw-p 00c90000 08:05 1055890                    /home/chief/android-studio/jre/jre/lib/amd64/server/libjvm.so
+7f2d42991000-7f2d429d5000 rw-p 00000000 00:00 0 
+7f2d429d5000-7f2d429ed000 r-xp 00000000 08:05 1070720                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f2d429ed000-7f2d42bec000 ---p 00018000 08:05 1070720                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f2d42bec000-7f2d42bed000 r--p 00017000 08:05 1070720                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f2d42bed000-7f2d42bee000 rw-p 00018000 08:05 1070720                    /lib/x86_64-linux-gnu/libpthread-2.23.so
+7f2d42bee000-7f2d42bf2000 rw-p 00000000 00:00 0 
+7f2d42bf2000-7f2d42bf5000 r-xp 00000000 08:05 1070690                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f2d42bf5000-7f2d42df4000 ---p 00003000 08:05 1070690                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f2d42df4000-7f2d42df5000 r--p 00002000 08:05 1070690                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f2d42df5000-7f2d42df6000 rw-p 00003000 08:05 1070690                    /lib/x86_64-linux-gnu/libdl-2.23.so
+7f2d42df6000-7f2d42fb5000 r-xp 00000000 08:05 1070698                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f2d42fb5000-7f2d431b5000 ---p 001bf000 08:05 1070698                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f2d431b5000-7f2d431b9000 r--p 001bf000 08:05 1070698                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f2d431b9000-7f2d431bb000 rw-p 001c3000 08:05 1070698                    /lib/x86_64-linux-gnu/libc-2.23.so
+7f2d431bb000-7f2d431bf000 rw-p 00000000 00:00 0 
+7f2d431bf000-7f2d431d5000 r-xp 00000000 08:05 1055831                    /home/chief/android-studio/jre/lib/amd64/jli/libjli.so
+7f2d431d5000-7f2d433d4000 ---p 00016000 08:05 1055831                    /home/chief/android-studio/jre/lib/amd64/jli/libjli.so
+7f2d433d4000-7f2d433d5000 r--p 00015000 08:05 1055831                    /home/chief/android-studio/jre/lib/amd64/jli/libjli.so
+7f2d433d5000-7f2d433d6000 rw-p 00016000 08:05 1055831                    /home/chief/android-studio/jre/lib/amd64/jli/libjli.so
+7f2d433d6000-7f2d433fc000 r-xp 00000000 08:05 1070701                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f2d434d8000-7f2d434db000 ---p 00000000 00:00 0 
+7f2d434db000-7f2d435dd000 rw-p 00000000 00:00 0 
+7f2d435ef000-7f2d435f7000 rw-s 00000000 08:05 1056376                    /tmp/hsperfdata_chief/7640
+7f2d435f7000-7f2d435f8000 rw-p 00000000 00:00 0 
+7f2d435f8000-7f2d435f9000 r--p 00000000 00:00 0 
+7f2d435f9000-7f2d435fb000 rw-p 00000000 00:00 0 
+7f2d435fb000-7f2d435fc000 r--p 00025000 08:05 1070701                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f2d435fc000-7f2d435fd000 rw-p 00026000 08:05 1070701                    /lib/x86_64-linux-gnu/ld-2.23.so
+7f2d435fd000-7f2d435fe000 rw-p 00000000 00:00 0 
+7fffce01b000-7fffce03c000 rw-p 00000000 00:00 0                          [stack]
+7fffce1bf000-7fffce1c1000 r--p 00000000 00:00 0                          [vvar]
+7fffce1c1000-7fffce1c3000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+
+VM Arguments:
+jvm_args: -Djava.awt.headless=true -Xmx1024M -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant 
+java_command: com.android.dx.command.Main --dex --num-threads=4 --output /mnt/DCFCFB5DFCFB2FFE/Users/chief/StudioProjects/SkinHealthChecker/skinHealthChecker/build/intermediates/pre-dexed/debug/debug_3d49778a289f8eb5d5164607e935fcf0a77c83aa.jar /mnt/DCFCFB5DFCFB2FFE/Users/chief/StudioProjects/SkinHealthChecker/skinHealthChecker/build/intermediates/classes/debug
+java_class_path (initial): /home/chief/Android/Sdk/build-tools/25.0.2/lib/dx.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=/home/chief/bin:/home/chief/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+LD_LIBRARY_PATH=/home/chief/android-studio/bin:
+SHELL=/bin/bash
+DISPLAY=:0.0
+
+Signal Handlers:
+SIGSEGV: [libjvm.so+0x9e5150], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGBUS: [libjvm.so+0x9e5150], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGFPE: [libjvm.so+0x848450], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGPIPE: [libjvm.so+0x848450], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGXFSZ: [libjvm.so+0x848450], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGILL: [libjvm.so+0x848450], sa_mask[0]=11111111011111111101111111111110, sa_flags=SA_RESTART|SA_SIGINFO
+SIGUSR1: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGUSR2: [libjvm.so+0x848320], sa_mask[0]=00100000000000000000000000000000, sa_flags=SA_RESTART|SA_SIGINFO
+SIGHUP: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGINT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGTERM: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+SIGQUIT: SIG_DFL, sa_mask[0]=00000000000000000000000000000000, sa_flags=none
+
+
+---------------  S Y S T E M  ---------------
+
+OS:DISTRIB_ID=Ubuntu
+DISTRIB_RELEASE=16.04
+DISTRIB_CODENAME=xenial
+DISTRIB_DESCRIPTION="Ubuntu 16.04.2 LTS"
+
+uname:Linux 4.8.0-41-generic #44~16.04.1-Ubuntu SMP Fri Mar 3 17:11:16 UTC 2017 x86_64
+libc:glibc 2.23 NPTL 2.23 
+rlimit: STACK 8192k, CORE 0k, NPROC 15510, NOFILE 65536, AS infinity
+load average:1.53 2.39 1.72
+
+/proc/meminfo:
+MemTotal:        4012704 kB
+MemFree:          105776 kB
+MemAvailable:      12096 kB
+Buffers:            1008 kB
+Cached:           492900 kB
+SwapCached:          620 kB
+Active:          3066784 kB
+Inactive:         621740 kB
+Active(anon):    3056488 kB
+Inactive(anon):   611376 kB
+Active(file):      10296 kB
+Inactive(file):    10364 kB
+Unevictable:         696 kB
+Mlocked:             696 kB
+SwapTotal:       1025020 kB
+SwapFree:              0 kB
+Dirty:               200 kB
+Writeback:             0 kB
+AnonPages:       3195116 kB
+Mapped:            26816 kB
+Shmem:            472980 kB
+Slab:              75864 kB
+SReclaimable:      33248 kB
+SUnreclaim:        42616 kB
+KernelStack:       13184 kB
+PageTables:        64548 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     3031372 kB
+Committed_AS:   10281080 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:           0 kB
+VmallocChunk:          0 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    888832 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      175708 kB
+DirectMap2M:     3985408 kB
+
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 23 stepping 6, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, tsc
+
+/proc/cpuinfo:
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     T9400  @ 2.53GHz
+stepping	: 6
+microcode	: 0x60f
+cpu MHz		: 2533.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf eagerfpu pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 lahf_lm tpr_shadow vnmi flexpriority dtherm
+bugs		:
+bogomips	: 5054.91
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     T9400  @ 2.53GHz
+stepping	: 6
+microcode	: 0x60f
+cpu MHz		: 1600.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 10
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf eagerfpu pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 lahf_lm tpr_shadow vnmi flexpriority dtherm
+bugs		:
+bogomips	: 5054.91
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+
+
+Memory: 4k page, physical 4012704k(107652k free), swap 1025020k(0k free)
+
+vm_info: OpenJDK 64-Bit Server VM (25.112-b06) for linux-amd64 JRE (1.8.0_112-release-b06), built on Dec  6 2016 12:11:18 by "builder" with gcc 4.8.4
+
+time: Thu Mar 30 00:29:24 2017
+elapsed time: 0 seconds (0d 0h 0m 0s)
+

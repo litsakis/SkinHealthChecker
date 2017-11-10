@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="appcompat-v7-25.1.1">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/skinHealthChecker/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/20f4eee4e408475464a3a9799e8e66b1d36c3ab0/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/20f4eee4e408475464a3a9799e8e66b1d36c3ab0/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://C:/sdk/extras/android/m2repository/com/android/support/appcompat-v7/25.1.1/appcompat-v7-25.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

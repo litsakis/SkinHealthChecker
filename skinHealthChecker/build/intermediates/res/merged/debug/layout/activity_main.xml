@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+
+    >
+
+  <FrameLayout
+      android:id="@+id/camera_preview"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="1">
+
+
+    <Button
+        android:id="@+id/button_capture"
+
+        android:layout_width="95dp"
+        android:layout_height="95dp"
+        android:layout_gravity="bottom|center"
+        android:background="@drawable/ic_launcher"
+        android:elevation="0dp"
+        android:focusable="true"
+        android:shadowColor="#a80c0c"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+
+        android:text="ΛΗΨΗ"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="60dp"
+        android:layout_height="60sp"
+        android:layout_gravity="bottom|left"
+        android:background="@android:drawable/ic_menu_info_details"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/profil"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="end"
+        android:layout_weight="1.0"
+
+        android:background="@drawable/profil"
+        android:theme="@android:style/Widget.DeviceDefault.Light.CompoundButton.Star" />
+
+    <ToggleButton
+        android:id="@+id/language"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|end"
+        android:layout_weight="1.0"
+        android:background="@drawable/earth"
+
+        android:checked="true"
+        android:text="Torch"
+        android:textOff="Αγγ"
+        android:textOn="Ελλ"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/data"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="start"
+        android:layout_weight="1.0"
+
+        android:background="@android:drawable/ic_menu_save"
+        android:theme="@android:style/Widget.DeviceDefault.Light.CompoundButton.Star" />
+
+    <ToggleButton
+        android:id="@+id/flash"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center|start"
+        android:layout_weight="1.0"
+        android:autoText="false"
+
+        android:background="@android:drawable/ic_menu_view"
+        android:checked="true"
+        android:text="Torch"
+        android:textOff="ΚΛΕΙΣΤΟ"
+        android:textOn="ΑΝΟΙΚΤΟ" />
+
+
+  </FrameLayout>
+
+</LinearLayout>
