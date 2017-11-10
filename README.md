@@ -1,5 +1,5 @@
 # SkinHealthChecker
-Android app that make a skin diagnosis using OpenCV and Android camera Edit
+Android app that make a skin diagnosis using OpenCV and Android camera.
 
 SkinHealthChecker is an application that detect - identify skin diseases. 
 Specifically the identification of skin moles and their
